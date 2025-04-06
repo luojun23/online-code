@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/question/questionInfo",
+			"style": {
+			"navigationBarTitleText": "问题"
+		}
+		},
+		{
+			"path": "pages/exam/examInfo",
+			"style": {
+			"navigationBarTitleText": "在线考试"
+		}
+		},
+		{
+			"path": "pages/share/shareInfo",
+			"style": {
+			"navigationBarTitleText": "经验分享"
+		}
+		},
+		{
+			"path": "pages/my/myInfo",
+			"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+		}
+	],
+	"tabBar":{
+		"color": "#494949",
+		"selectedColor": "#00BFFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconfontSrc": "static/iconfont.ttf",
+		"height": "50px",
+		"list":[{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"color":"#494949",
+      		"iconfont": { 
+       			"text": "\ue603",
+        		"selectedText": "\ue603",
+        		"color": "#494949",
+        		"selectedColor": "#00BFFF"
+		}},{
+			"pagePath": "pages/question/questionInfo",
+			"text": "题库",
+			"color":"#494949",
+      		"iconfont": { 
+       			"text": "\ue66a",
+        		"selectedText": "\ue66a",
+        		"color": "#494949",
+        		"selectedColor": "#00BFFF"
+		}},
+		{
+			"pagePath": "pages/exam/examInfo",
+			"text": "在线考试",
+			"color":"#494949",
+			"iconfont": { 
+				"text": "\ue62f",
+				"selectedText": "\ue62f",
+				"color": "#494949",
+				"selectedColor": "#00BFFF"
+		}},
+		{
+			"pagePath": "pages/share/shareInfo",
+			"text": "经验分享",
+			"color":"#494949",
+			"iconfont": { 
+				"text": "\ue600",
+				"selectedText": "\ue600",
+				"color": "#494949",
+				"selectedColor": "#00BFFF"
+		}},
+		{
+			"pagePath": "pages/my/myInfo",
+			"text": "个人中心",
+			"color":"#494949",
+			"iconfont": { 
+				"text": "\ue63d",
+				"selectedText": "\ue63d",
+				"color": "#494949",
+				"selectedColor": "#00BFFF"
+		}
+	}]
+},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {//页面回弹效果
+			"bounce": "none"
+		}
+	}
+}
